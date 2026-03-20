@@ -58,7 +58,7 @@ Aplicação web completa para gerenciamento de consultas médicas, construída c
 
 ### 1. Clone o repositório
 ```bash
-git clone <url-do-repo>
+git clone [<url-do-repo>](https://github.com/rafael346/av2.git)
 cd av2
 ```
 
