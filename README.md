@@ -50,7 +50,7 @@ Aplicação web completa para gerenciamento de consultas médicas, construída c
 - Node.js 18+
 - MongoDB local **ou** conta no MongoDB Atlas
 - Chave de API do [OpenWeatherMap](https://openweathermap.org/api) (gratuita)
-- Docker (opcional, para deploy com containers) - Coloquei essa opção  para facilitar o uso da aplicação.
+- Docker (opcional, para deploy com containers) - Coloquei essa opção  para facilitar o uso da aplicação caso queira usar.
 
 ---
 
@@ -274,7 +274,7 @@ baseURL: import.meta.env.VITE_API_BASE_URL || '/api',
 
 ```bash
 # No servidor (Ubuntu/Debian):
-git clone <url-do-repo> && cd av2
+git clone https://github.com/rafael346/av2.git && cd av2
 cp backend/.env.example .env
 # Edite .env com os valores de produção
 docker compose up -d --build
